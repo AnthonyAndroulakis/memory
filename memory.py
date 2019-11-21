@@ -3,10 +3,10 @@
 import numpy as np #for time and space (boolean) matricies. 1 for occurs and 0 for not occurs.
 #needs to account for time and space (location)
 
-time=2 #2 seconds, or whatever unit of time. Either this time unit changes, the weight for each experience in a time slot, or both
+duration=2 #2 seconds, or whatever unit of time. Either this time unit changes, the weight for each experience in a time slot, or both
 width=3 #unit space 1 dimensional, this changes
 height=4 #unit space 1 dimensional, this changes
-currentspace= np.zeros((time, width, height)) #initialize 3x4 unit2 space with 2 seconds of time
+currentspace= np.zeros((duration, width, height)) #initialize 3x4 unit2 space with 2 seconds of time
 #3d currentspace is a stream of spacial-temporal experiences, only time and location covered in this matrix
 current={} #current contains a non-rigid area of space made up of current space variables over time. keys=time, values=(currentspace variables)
 
