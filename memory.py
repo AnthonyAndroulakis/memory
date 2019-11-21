@@ -7,7 +7,7 @@ duration=2 #2 seconds, or whatever unit of time. Either this time unit changes, 
 width=3 #unit space 1 dimensional, this changes
 height=4 #unit space 1 dimensional, this changes
 currentspace= np.zeros((duration, width, height)) #initialize 3x4 unit2 space with 2 seconds of time
-#3d currentspace is a stream of spacial-temporal experiences, only time and location covered in this matrix
+#3d currentspace is a stream of spacio-temporal experiences, only time and location covered in this matrix
 current={} #current contains a non-rigid area of space made up of current space variables over time. keys=time, values=(currentspace variables)
 
 #####START BIASES##### 1 (equal bias/weight) for now
